@@ -14,7 +14,7 @@ const TimelineItem = ({ index, title, content, align }) => {
       </div>
 
       <div className="flex-1 relative left-16 bottom-12 mt-4 md:mt-0">
-        <div className="bg-white text-black rounded-lg shadow-lg w-full h-48 px-6 py-4">
+        <div className="bg-white text-black rounded-lg shadow-lg w-full px-6 py-4">
           <h3 className=" font-grotesk mb-3 font-bold text-3xl">{title}</h3>
           <p className=" font-grotesk text-[#8A8A8A] text-xl leading-snug">{content}</p>
         </div>
