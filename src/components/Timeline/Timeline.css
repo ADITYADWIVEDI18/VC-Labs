@@ -1,0 +1,9 @@
+.timeline-container {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  
+  .timeline-container::-webkit-scrollbar {
+    display: none; /* WebKit (Safari, Chrome) */
+  }
+  
