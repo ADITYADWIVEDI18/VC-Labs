@@ -1,6 +1,4 @@
-Certainly! Here's a template for a README.md file tailored for VC Media Labs:
-
----
+![vclabs](https://github.com/ADITYADWIVEDI18/VC-Labs/assets/104710359/72b621b7-0c16-4111-9f7c-df037266bf37)
 
 # VC Media Labs
 
