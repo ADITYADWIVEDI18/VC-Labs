@@ -19,7 +19,7 @@ const AboutUs = () => {
       <div className="w-full  p-6 sm:p-10 lg:p-16 bg-whitemx-auto">
       
         <div className='flex flex-col md:flex-row justify-center items-center mb-8 space-y-4 md:space-y-0 md:space-x-6'>
-          <span className='font-anton text-[4em] lg:text-5xl text-black'>About us</span>
+          <span className='font-anton text-[4em] lg:text-5xl text-[#00185C]'>About us</span>
           <span className='w-full md:w-96 text-sm sm:text-base md:text-lg lg:text-xl md:border-l-4 pl-2 border-gray-300 text-[#6E6E6E] font-grotesk text-center mt-4 md:mt-0'>
             We at VC Media help business owners build a founder-led sales system within 6 months
           </span>

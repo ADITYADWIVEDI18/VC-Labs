@@ -7,7 +7,7 @@ const WhatToDo = () => {
     return (
         <div className='bg-white w-full min-h-full pb-8 flex flex-col justify-center items-center p-8 gap-8'>
             <div className='text-center'>
-                <p className='font-anton text-[3em] sm:text-[4em] md:text-6xl lg:text-black mt-10'>What we do?</p>
+                <p className='font-anton text-[#01185C] text-[3em] sm:text-[4em] md:text-6xl mt-10'>What we do?</p>
             </div>
 
             <div className='flex flex-wrap justify-center items-center'>

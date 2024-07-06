@@ -7,7 +7,7 @@ const DoThis = () => {
       {info.map((item, index) => (
         <div key={index} className="max-w-[1240px] mx-auto flex flex-col md:flex-row items-center justify-between py-6 md:py-10">
           <div className={`w-full md:w-[481px] lg:w-[546px] flex flex-col gap-3 ${index % 2 === 0 ? 'md:order-1' : 'md:order-2'}`}>
-            <div className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight" style={{ fontFamily: 'Space Grotesk', fontWeight: 700 }}>
+            <div className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight text-[#00185C]" style={{ fontFamily: 'Space Grotesk', fontWeight: 700 }}>
               {item.heading}
             </div>
             <div className="text-lg md:text-xl lg:text-2xl text-[#717171] leading-normal" style={{ fontFamily: 'Space Grotesk', fontWeight: 400 }}>

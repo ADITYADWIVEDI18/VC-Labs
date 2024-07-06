@@ -16,7 +16,7 @@ const Navigation = () => {
   };
 
   return (
-    <div className='w-full flex flex-row justify-between lg:justify-around md:justify-around sm:justify-between bg-[#396DFF] text-white px-6 py-4'>
+    <div className=' border-b border-[#000000] w-full flex flex-row justify-between lg:justify-around md:justify-around sm:justify-between bg-[#396DFF] text-white px-6 py-4'>
       <span className='font-anton text-[24px] cursor-pointer' onClick={() => scrollToSection('home')}>
         VCMEDIA LABS
       </span>

@@ -31,7 +31,7 @@ const Counter = () => {
           if (followersCount < 100) {
             followersCount += 5; // Adjust step as needed
           }
-          if (callsCount < 350) {
+          if (callsCount < 500) {
             callsCount += 25; // Adjust step as needed
           }
 
@@ -45,7 +45,7 @@ const Counter = () => {
           if (
             viewsCount >= 150 &&
             followersCount >= 100 &&
-            callsCount >= 350
+            callsCount >= 500
           ) {
             clearInterval(interval);
           }

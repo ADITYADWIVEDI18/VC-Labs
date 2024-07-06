@@ -18,7 +18,7 @@ const WhyUs = () => {
   return (
     <div className="h-full w-full flex justify-center items-center min-h-screen">
       <div className="w-full flex flex-col items-center py-[120px] gap-[100px] h-full">
-        <div className="font-anton text-[72px] text-black text-center h-[108px] leading-[108.39px]">
+        <div className="font-anton text-[72px] text-[#00185C] text-center h-[108px] leading-[108.39px]">
           Why us?
         </div>
         <div className="flex flex-wrap justify-center gap-[64px] items-center max-w-[1240px] w-full sm:mx-96">

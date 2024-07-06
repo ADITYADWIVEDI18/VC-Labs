@@ -36,7 +36,7 @@ const Process = () => {
         <button className="border border-[#2E2E2E] text-[#515050] text-2xl md:text-3xl font-semibold rounded-2xl px-6 py-3 font-grotesk">
           Our Process
         </button>
-        <div className="font-anton text-3xl md:text-5xl text-black tracking-tight">
+        <div className="font-anton text-3xl md:text-5xl text-[#00185C] tracking-tight">
           We follow this simple <br /> 5 step process:
         </div>
       </div>

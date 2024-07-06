@@ -14,7 +14,7 @@ const BookCall = () => {
 
   return (
     <div className="w-full bg-blue-50 p-8 rounded-lg shadow-lg text-center">
-      <p className="text-[3em] text-black font-bold mb-8">Book a Call</p>
+      <p className="text-[3em] text-[#00185C] font-bold mb-8">Book a Call</p>
       <div className="calendly-inline-widget" style={{ minWidth: '320px', height: '700px' }} data-url="https://calendly.com/adityaadwivedi18/30min"></div>
     </div>
   );
