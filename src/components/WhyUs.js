@@ -17,25 +17,24 @@ const WhyUs = () => {
 
   return (
     <div className="h-full w-full flex justify-center items-center min-h-screen">
-      <div className=" w-full flex flex-col items-center py-[120px] gap-[100px] h-full">
+      <div className="w-full flex flex-col items-center py-[120px] gap-[100px] h-full">
         <div className="font-anton text-[72px] text-black text-center h-[108px] leading-[108.39px]">
           Why us?
         </div>
-        <div className="flex flex-col flex-wrap sm:flex-row justify-center gap-[64px] items-center max-w-[1240px]">
+        <div className="flex flex-wrap justify-center gap-[64px] items-center max-w-[1240px] w-full sm:mx-96">
           {[1, 2, 3].map((number) => (
             <div
               key={number}
-              className="bg-[#F9E0F3] w-[370.67px] h-[495px] rounded-[24px] p-[24px] flex flex-col justify-center items-start  transition-colors duration-300 hover:bg-[#396DFF] cursor-pointer"
+              className="bg-[#F9E0F3] w-full max-w-[370.67px] h-[495px] rounded-[24px] p-[24px] flex flex-col justify-center items-start transition-colors duration-300 hover:bg-[#396DFF] cursor-pointer flex-grow "
               onMouseEnter={() => setHoveredCard(number)}
               onMouseLeave={() => setHoveredCard(null)}
             >
               <p className={`text-[64px] sm:text-[64px] font-anton ${hoveredCard === number ? 'hidden' : 'text-[#95317D]'}`}>
                 {number}.
               </p>
-              <p className={`font-grotesktext-center mb-24 leading-[38.28px] ${hoveredCard === number ? 'text-white text-xl font-normal text-center' : 'text-black font-bold text-3xl'}`}>
+              <p className={`font-grotesk text-center mb-24 leading-[38.28px] ${hoveredCard === number ? 'text-white text-xl font-normal text-center' : 'text-black font-bold text-3xl'}`}>
                 {hoveredCard === number ? hoverTexts[number - 1] : defaultTexts[number - 1]}
               </p>
-          
             </div>
           ))}
         </div>

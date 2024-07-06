@@ -40,7 +40,7 @@ const Process = () => {
           We follow this simple <br /> 5 step process:
         </div>
       </div>
-      <div className="w-full max-w-[631.02px] h-[800px]">
+      <div className="w-full max-w-[631.02px] md:h-[800px] md:overflow-scroll scrollbar-hide sm:h-full">
         <TimelineContainer events={events} />
       </div>
     </div>

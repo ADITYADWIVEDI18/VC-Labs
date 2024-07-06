@@ -18,30 +18,32 @@ const TimelineContainer = ({ events }) => {
   }, []);
 
   return (
-    <div className={`timeline-container mx-auto w-full ${isMobile ? 'h-full overflow-auto' : 'h-[100vh] overflow-scroll'}`}>
-      <div className="relative wrap overflow-hidden p-10">
-        {!isMobile && (
-          <div className="absolute border-opacity-20 border-gray-700 h-full border hidden md:block sm:border-hidden" style={{ left: 'calc(4% + 1px)', width: '4px', backgroundColor: '#396DFF' }}></div>
-        )}
+    <div className="bg-gray-100 min-h-screen flex items-center justify-evenly ">
+      <div className="max-w-6xl w-full p-6 sm:p-10 lg:p-16 bg-[#F1F5FF] rounded-lg shadow-lg">
+        <div className="relative wrap overflow-hidden p-10">
+          {!isMobile && (
+            <div className="absolute border-opacity-20 border-gray-700 h-full border hidden md:block sm:border-hidden" style={{ left: 'calc(4% + 1px)', width: '4px', backgroundColor: '#396DFF' }}></div>
+          )}
 
-        {events.map((event, index) => (
-          isMobile ? (
-            <ResponsiveTimeline
-              key={index}
-              index={index + 1}
-              title={event.heading}
-              content={event.smallContent}
-            />
-          ) : (
-            <TimelineItem
-              key={index}
-              index={index + 1}
-              title={event.heading}
-              content={event.smallContent}
-              align="left"
-            />
-          )
-        ))}
+          {events.map((event, index) => (
+            isMobile ? (
+              <ResponsiveTimeline
+                key={index}
+                index={index + 1}
+                title={event.heading}
+                content={event.smallContent}
+              />
+            ) : (
+              <TimelineItem
+                key={index}
+                index={index + 1}
+                title={event.heading}
+                content={event.smallContent}
+                align="left"
+              />
+            )
+          ))}
+        </div>
       </div>
     </div>
   );

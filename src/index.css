@@ -9,7 +9,7 @@
   -ms-overflow-style: none; /* IE and Edge */
 }
 
-.timeline-container::-webkit-scrollbar {
+.timeline-container,.scrollbar-hide::-webkit-scrollbar {
   display: none; /* Chrome, Safari, and Opera */
 }
 
