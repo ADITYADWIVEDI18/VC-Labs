@@ -2,7 +2,7 @@ import React from 'react';
 
 const ResponsiveTimeline = ({ index, title, content }) => {
   return (
-    <div className='flex flex-col md:flex-row items-start md:items-center mb-8'>
+    <div className=' flex flex-col md:flex-row items-start md:items-center mb-8'>
       
       <div className="flex flex-col justify-center items-center h-full bg-white p-4 rounded-xl relative md:left-16 md:bottom-12 mt-4 md:mt-0">
       <div className="relative z-20 flex items-center justify-center bg-[#F9E0F3] scale-[1.8] text-black rounded-full w-8 h-8 mt-1">
