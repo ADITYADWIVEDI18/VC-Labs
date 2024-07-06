@@ -6,10 +6,12 @@ const WhatToDo = () => {
    
 
     return (
-        <div className='bg-white w-full min-h-full'>
-            <p className='font-anton text-[3vmax] text-black pl-16 pt-10'>What we do</p>
+        <div className='bg-white w-full min-h-full pb-8 flex flex-col justify-center items-center'>
+            <div className=''>   
+            <p className='  font-anton text-[4vmax] text-center text-black pl-16 pt-10'>What we do</p>
+            </div>
            
-            <div className='flex flex-wrap justify-center items-center'>
+            <div className=' flex flex-wrap justify-center items-center'>
             {info.map((item, index) => (
                 <ToDoCard
                     key={index}

@@ -2,7 +2,7 @@ export const info = [
     {
         heading: "LinkedIn and X Branding ",
         subheading: "We help you stand out and become a thought leader",
-        image: "todo1.png"
+        image: "todo4.png"
     },
     {
         heading: "Intent-based Prospecting ",
@@ -17,6 +17,6 @@ export const info = [
     {
         heading: "Multi-Channel Outreach",
         subheading: "We get you 10-15 qualified calls per month guaranteed.",
-        image: "todo4.png"
+        image: "todo1.png"
     },
 ];

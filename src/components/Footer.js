@@ -3,7 +3,7 @@ import vclabs from '../images/vclabs.png';
 
 const Footer = () => {
   return (
-    <div className="bg-[#396DFF] w-full font-grotesk flex flex-col">
+    <div className="bg-[#396DFF] font-grotesk flex flex-col text-white">
       
       <div className="flex flex-col md:flex-row justify-evenly py-8 md:py-16 space-y-8 md:space-y-0">
         

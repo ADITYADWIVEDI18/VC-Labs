@@ -5,7 +5,7 @@ const TimelineItem = ({ index, title, content, align }) => {
   const timelineSideClass = isRight ? 'flex-row-reverse md:flex-row' : '';
 
   return (
-    <div className={`mb-24 relative right-7 md:flex-row justify-between items-center w-full ${timelineSideClass}`}>
+    <div className={`mb-24 relative right-7 md:flex-col justify-between items-center w-full ${timelineSideClass}`}>
      
       <div className="flex-1 md:block hidden"></div>
      

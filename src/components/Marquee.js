@@ -1,20 +1,36 @@
 import React from 'react';
-import { Image } from '../utils/Image';
 import { motion } from 'framer-motion';
+import {Image} from '../utils/Image'; // Ensure this path is correct
 
 const Marquee = () => {
-  return (
-    <div className="text-center">
-      <p className="font-grotesk">BRANDS WE HAVE WORKED WITH:</p>
+  // Duplicate the images array to create a seamless loop
+  const duplicatedImages = [...Image, ...Image];
 
-      <div className="">
-        <ul className="moving flex flex-row  gap-[3em] pt-8">
-          {Image.map(({ src, alt }) => (
-            <li><img src={require(`../images/work brand/${src}`)} alt={alt} /></li>
+  return (
+    <div className="text-center py-8 overflow-hidden">
+      <p className="font-grotesk text-lg md:text-xl mb-4">BRANDS WE HAVE WORKED WITH:</p>
+      <motion.div
+        className="flex"
+        initial={{ x: 0 }}
+        animate={{ x: '-100%' }}
+        transition={{
+          duration: 10, // Adjust this value to increase speed
+          ease: 'linear',
+          repeat: Infinity,
+        }}
+      >
+        <ul className="flex flex-row gap-8 py-8">
+          {duplicatedImages.map(({ src, alt }, index) => (
+            <li key={index} className="flex-none">
+              <img
+                src={require(`../images/work brand/${src}`)}
+                alt={alt}
+                className="h-12 w-auto md:h-16 lg:h-20 scale-[0.8]"
+              />
+            </li>
           ))}
         </ul>
-
-      </div>
+      </motion.div>
     </div>
   );
 };

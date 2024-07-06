@@ -9,6 +9,7 @@
     "framer-motion": "^11.2.12",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-intersection-observer": "^9.10.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -38,5 +39,10 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.4"
-  }
+  },
+  "description": "![vclabs](https://github.com/ADITYADWIVEDI18/VC-Labs/assets/104710359/72b621b7-0c16-4111-9f7c-df037266bf37)",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

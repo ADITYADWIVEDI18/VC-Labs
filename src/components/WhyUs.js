@@ -16,27 +16,32 @@ const WhyUs = () => {
   ];
 
   return (
-    <div>
-      <div className='font-anton text-[2em] sm:text-[3em] text-black py-10 sm:py-20 text-center'>Why us?</div>
-      <div className='relative flex flex-col sm:flex-row gap-6 pb-10 sm:pb-20 items-center'>
-        {[1, 2, 3].map((number) => (
-          <div
-            key={number}
-            className='bg-[#F9E0F3] w-[80vw] sm:w-[25vw] h-[50vmin] rounded-2xl p-4 flex flex-col justify-start transition-colors duration-300 hover:bg-[#396DFF] hover:justify-center hover:overflow-scroll'
-            onMouseEnter={() => setHoveredCard(number)}
-            onMouseLeave={() => setHoveredCard(null)}
-          >
-            <p className={`text-[3em] sm:text-[4em] font-semibold ${hoveredCard === number ? 'hidden' : 'text-[#95317D]'}`}>
-              {number}.
-            </p>
-            <p className={`font-bold font-grotesk text-[1em] sm:text-[1.5em] ${hoveredCard === number ? 'text-white text-xl font-thin' : 'text-black'}`}>
-              {hoveredCard === number ? hoverTexts[number - 1] : defaultTexts[number - 1]}
-            </p>
-          </div>
-        ))}
+    <div className="h-full w-full flex justify-center items-center min-h-screen">
+      <div className=" w-full flex flex-col items-center py-[120px] gap-[100px] h-full">
+        <div className="font-anton text-[72px] text-black text-center h-[108px] leading-[108.39px]">
+          Why us?
+        </div>
+        <div className="flex flex-col flex-wrap sm:flex-row justify-center gap-[64px] items-center max-w-[1240px]">
+          {[1, 2, 3].map((number) => (
+            <div
+              key={number}
+              className="bg-[#F9E0F3] w-[370.67px] h-[495px] rounded-[24px] p-[24px] flex flex-col justify-center items-start  transition-colors duration-300 hover:bg-[#396DFF] cursor-pointer"
+              onMouseEnter={() => setHoveredCard(number)}
+              onMouseLeave={() => setHoveredCard(null)}
+            >
+              <p className={`text-[64px] sm:text-[64px] font-anton ${hoveredCard === number ? 'hidden' : 'text-[#95317D]'}`}>
+                {number}.
+              </p>
+              <p className={`font-grotesktext-center mb-24 leading-[38.28px] ${hoveredCard === number ? 'text-white text-xl font-normal text-center' : 'text-black font-bold text-3xl'}`}>
+                {hoveredCard === number ? hoverTexts[number - 1] : defaultTexts[number - 1]}
+              </p>
+          
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default WhyUs;
