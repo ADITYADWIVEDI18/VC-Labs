@@ -1,6 +1,6 @@
-![vclabs](https://github.com/ADITYADWIVEDI18/VC-Labs/assets/104710359/72b621b7-0c16-4111-9f7c-df037266bf37)
-
 # VC Media Labs
+
+![VC Media Labs Logo](https://github.com/ADITYADWIVEDI18/VC-Labs/assets/104710359/72b621b7-0c16-4111-9f7c-df037266bf37)
 
 Welcome to VC Media Labs, where we excel at building brands, generating leads, and transforming your LinkedIn and X presence into powerful sales engines.
 
@@ -59,3 +59,8 @@ Discover how we generated $22.5K in new business in just 28 days, with results i
 ---
 
 Feel free to customize and expand on this template based on specific details, achievements, or additional services offered by VC Media Labs. This README.md should effectively introduce potential collaborators, clients, or team members to the comprehensive services and successful outcomes provided by VC Media Labs.
+
+### Connect with Us
+
+- [LinkedIn](https://www.linkedin.com/company/vcmedialabs)
+- [Twitter](https://x.com/VCmedialabs)
