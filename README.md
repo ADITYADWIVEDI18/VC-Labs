@@ -2,6 +2,9 @@
 
 ![VC Media Labs Logo](https://github.com/ADITYADWIVEDI18/VC-Labs/assets/104710359/72b621b7-0c16-4111-9f7c-df037266bf37)
 
+![image](https://github.com/ADITYADWIVEDI18/VC-Labs/assets/104710359/75105f99-6c11-4b77-ab1a-74c33935ca48)
+
+
 Welcome to VC Media Labs, where we excel at building brands, generating leads, and transforming your LinkedIn and X presence into powerful sales engines.
 
 ## What We Do
