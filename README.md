@@ -45,7 +45,7 @@ Discover how we generated $22.5K in new business in just 28 days, with results i
 
 - **150M+ Views Generated**
 - **100K+ Followers Earned**
-- **350+ Calls Booked**
+- **500+ Calls Booked**
 
 ### Our 5-Step Process
 
